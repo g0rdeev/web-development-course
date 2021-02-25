@@ -33,6 +33,93 @@ table {
     margin: 0 auto !important;
 }
 
+center{
+ width: 100%;
+ background-color: #f1f1f1;
+}
+
+center .email-container{
+	max-width: 600px;
+	 margin: 0 auto;
+}
+
+center table{
+	border:0px;
+	width:100%;
+	margin: auto;
+}
+
+table[role=presentation] {
+    border:0px;
+    width:100%;
+}
+  
+.logo{
+	text-align: left;
+}
+
+.bg_white {
+  padding: 1em 2.5em 0 2.5em;
+}
+.hero {
+    padding: 2em 0 2em 0;
+  }
+  .hero table td {
+    padding: 0 2.5em;
+    text-align: left;
+  }
+
+
+.bg_white tr {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  }
+
+.bg_white .item{
+	width:80%;
+	text-align:left;
+	padding: 0 2.5em;
+	color:#000;
+	padding-bottom: 20px;
+}
+
+.bg_white .item-price{
+	width:20%;
+	text-align:right;
+	padding: 0 2.5em;
+	color:#000;
+	padding-bottom: 20px;
+}
+
+.bg_white-td-right{
+	width:80%;
+	text-align:left;
+	padding: 0 2.5em;
+}
+
+.bg_white-td-left{
+	width:20%;
+	text-align:left;
+	padding: 0 2.5em;
+}
+
+.product-entry img{
+	width: 100px;
+	max-width: 600px;
+	height: auto;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.price{
+	color: #000;
+	font-size: 20px;
+}
+
+.continur-your-order td {
+    text-align: center;
+    padding: 1em 2.5em;
+  }
+
 /* What it does: Uses a better rendering method when resizing images in IE. */
 img {
     -ms-interpolation-mode:bicubic;
@@ -94,13 +181,6 @@ img.g-img + div {
         min-width: 414px !important;
     }
 }
-    < /style>
-
-    <!-- CSS Reset : END -->
-
-    <!-- Progressive Enhancements : BEGIN -->
-    <style>
-
  .primary{
 	background: #17bebb;
 }
@@ -172,8 +252,7 @@ a{
 	color: #17bebb;
 }
 
-table{
-}
+
 /*LOGO*/
 
 .logo h1{
@@ -193,14 +272,14 @@ table{
 	z-index: 0;
 }
 
-...hero ...text{
+.hero .text{
 	color: rgba(0,0,0,.3);
 }
 .hero .text h2{
 	color: #000;
 	font-size: 34px;
 	margin-bottom: 15px;
-	font-weight: ;
+	font-weight: 300;
 	line-height: 1.2;
 }
 .hero .text h3{
@@ -249,7 +328,7 @@ ul.social li{
 	border-top: 1px solid rgba(0,0,0,.05);
 	color: rgba(0,0,0,.5);
 }
-.footer .{
+.footer{
 	color: #000;
 	font-size: 20px;
 }
