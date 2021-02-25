@@ -33,17 +33,17 @@ table {
     margin: 0 auto !important;
 }
 
-center{
+center {
  width: 100%;
  background-color: #f1f1f1;
 }
 
-center .email-container{
+center .email-container {
 	max-width: 600px;
 	 margin: 0 auto;
 }
 
-center table{
+center table {
 	border:0px;
 	width:100%;
 	margin: auto;
@@ -54,7 +54,7 @@ table[role=presentation] {
     width:100%;
 }
   
-.logo{
+.logo {
 	text-align: left;
 }
 
@@ -74,7 +74,7 @@ table[role=presentation] {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   }
 
-.bg_white .item{
+.bg_white .item {
 	width:80%;
 	text-align:left;
 	padding: 0 2.5em;
@@ -82,7 +82,7 @@ table[role=presentation] {
 	padding-bottom: 20px;
 }
 
-.bg_white .item-price{
+.bg_white .item-price {
 	width:20%;
 	text-align:right;
 	padding: 0 2.5em;
@@ -90,19 +90,19 @@ table[role=presentation] {
 	padding-bottom: 20px;
 }
 
-.bg_white-td-right{
+.bg_white-td-right {
 	width:80%;
 	text-align:left;
 	padding: 0 2.5em;
 }
 
-.bg_white-td-left{
+.bg_white-td-left {
 	width:20%;
 	text-align:left;
 	padding: 0 2.5em;
 }
 
-.product-entry img{
+.product-entry img {
 	width: 100px;
 	max-width: 600px;
 	height: auto;
@@ -110,7 +110,7 @@ table[role=presentation] {
 	display: block;
 }
 
-.price{
+.price {
 	color: #000;
 	font-size: 20px;
 }
@@ -181,66 +181,66 @@ img.g-img + div {
         min-width: 414px !important;
     }
 }
- .primary{
+ .primary {
 	background: #17bebb;
 }
-.bg_white{
+.bg_white {
 	background: #ffffff;
 }
-.bg_light{
+.bg_light {
 	background: #f7fafa;
 }
-.bg_black{
+.bg_black {
 	background: #000000;
 }
-.bg_dark{
+.bg_dark {
 	background: rgba(0,0,0,.8);
 }
-.email-section{
+.email-section {
 	padding:2,5em;
 }
 
 /*BUTTON*/
-.btn{
+.btn {
 	padding: 10px 15px;
 	display: inline-block;
 }
-.btn.btn-primary{
+.btn.btn-primary {
 	border-radius: 5px;
 	background: #17bebb;
 	color: #ffffff;
 }
-.btn.btn-white{
+.btn.btn-white {
 	border-radius: 5px;
 	background: #ffffff;
 	color: #000000;
 }
-.btn.btn-white-outline{
+.btn.btn-white-outline {
 	border-radius: 5px;
 	background: transparent;
 	border: 1px solid #fff;
 	color: #fff;
 }
-.btn.btn-black-outline{
+.btn.btn-black-outline {
 	border-radius: 0px;
 	background: transparent;
 	border: 2px solid #000;
 	color: #000;
 	font-weight: 700;
 }
-.btn-custom{
+.btn-custom {
 	color: rgba(0,0,0,.3);
 	text-decoration: underline;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6 {
 	font-family: 'Work Sans', sans-serif;
 	color: #000000;
 	margin-top: 0;
 	font-weight: 400;
 }
 
-body{
+body {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
 	font-size: 15px;
@@ -248,17 +248,17 @@ body{
 	color: rgba(0,0,0,.4);
 }
 
-a{
+a {
 	color: #17bebb;
 }
 
 
 /*LOGO*/
 
-.logo h1{
+.logo h1 {
 	margin: 0;
 }
-.logo h1 a{
+.logo h1 a {
 	color: #17bebb;
 	font-size: 24px;
 	font-weight: 700;
@@ -266,81 +266,80 @@ a{
 }
 
 /*HERO*/
--hero{
+.hero {
 	position: relative;
-  position: absolute;
 	z-index: 0;
 }
 
-.hero .text{
+.hero .text {
 	color: rgba(0,0,0,.3);
 }
-.hero .text h2{
+.hero .text h2 {
 	color: #000;
 	font-size: 34px;
 	margin-bottom: 15px;
 	font-weight: 300;
 	line-height: 1.2;
 }
-.hero .text h3{
+.hero .text h3 {
 	font-size: 24px;
 	font-weight: 200;
 }
-.hero .text h2 span{
+.hero .text h2 span {
 	font-weight: 600;
 	color: #000;
 }
 
 
 /*PRODUCT*/
-.product-entry{
+.product-entry {
 	display: block;
 	position: relative;
 	float: left;
 	padding-top: 20px;
 }
-.product-entry.text{
+.product-entry.text {
 	width: calc(100% - 125px);
 	padding-left: 20px;
 }
-.product-entry .text h3{
+.product-entry .text h3 {
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
-.product-entry .text p{
+.product-entry .text p {
 	margin-top: 0;
 }
-.product-entry img, .product-entry .text{
+.product-entry img, .product-entry .text {
 	float: left;
 }
 
-ul.social{
+ul.social {
 	padding: 0;
 }
-ul.social li{
+ul.social li {
 	display: inline-block;
 	margin-right: 10px;
 }
 
 /*FOOTER*/
 
--footer{
+.footer {
 	border-top: 1px solid rgba(0,0,0,.05);
 	color: rgba(0,0,0,.5);
 }
-.footer{
+.footer .heading {
 	color: #000;
 	font-size: 20px;
 }
-.footer ul{
+.footer ul {
 	margin: 0;
 	padding: 0;
 }
-.footer ul li{
+.footer ul li {
 	list-style: none;
 	margin-bottom: 10px;
 }
-.footer ul li a{
+.footer ul li a {
 	color: rgba(0,0,0,1);
 }
 
